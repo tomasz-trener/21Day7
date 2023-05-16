@@ -10,7 +10,7 @@ namespace P02SasSExample
 {
     class SpeechServiceTool
     {
-        string apiKey= "ba478f693e654d43a4d95f6772a7a46a";
+        string apiKey= "829b6511f3484003a839b35d81314578";
         public async Task<string> RecognizeAsync()
         {
             var conf = SpeechConfig.FromSubscription(apiKey, "eastus");
