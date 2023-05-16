@@ -8,7 +8,7 @@
         Title="MainWindow" Height="250" Width="400">
     <Grid>
         <Button Click="Button_Click" Content="Start recognition" HorizontalAlignment="Left" Margin="26,46,0,0" VerticalAlignment="Top" Height="131" Width="170"/>
-        <TextBox HorizontalAlignment="Left" Margin="26,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Margin="26,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
 </Window>

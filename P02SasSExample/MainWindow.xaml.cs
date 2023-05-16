@@ -25,9 +25,13 @@ namespace P02SasSExample
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            SpeechServiceTool speechServiceTool = new SpeechServiceTool();
 
+            string recognizeText = await speechServiceTool.RecognizeAsync(); 
+
+            txtMessage.Text = recognizeText;
         }
     }
 }
